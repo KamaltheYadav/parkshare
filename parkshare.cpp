@@ -72,7 +72,8 @@ vector<Owner> loadOwners() {
 // Write the entire owners vector back to owners.txt (overwrites)
 void saveOwners(const vector<Owner>& owners) {
     ofstream file(OWNERS_FILE);
-    for (const Owner& o : owners) {
+    for(int i=0;i<owners.size();i++) {
+        const Owner& o = owners[i];
         file << o.username      << "|"
              << o.password      << "|"
              << o.address       << "|"

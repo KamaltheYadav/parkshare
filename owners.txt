@@ -1,2 +1,3 @@
 kamal|kamal123|tinkune|10|0|10|50
 pratik|pratik123|tinkune|6|1|5|100
+fff|ff|ff|0|0|0|32758
